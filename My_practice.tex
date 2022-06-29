@@ -1,0 +1,36 @@
+\input{template_settings/ch_preamble}
+\setcounter{docType}{2}
+\input{my_folder/my_settings}
+
+
+\begin{document}
+	
+\input{template_settings/common/renames}
+
+\input{my_folder/practice}				 % Титульный лист
+										 % Убираем footnotes, консультанта, если нет
+
+\input{my_folder/contents}  	         % Оглавление
+
+
+\input{my_folder/introduction}	    	 % Введение
+
+\input{my_folder/chapter1}	         	 % Глава 1
+\ContinueChapterBegin
+\input{my_folder/chapter2}	         	 % Глава 2
+\input{my_folder/chapter3}           	 % Глава 3
+\input{my_folder/chapter4}           	 % Глава 3
+\ContinueChapterEnd 
+
+\input{my_folder/conclusion}        	 % Заключение
+\input{my_folder/references}		     % Список литературы
+
+\appendix
+
+
+\input{my_folder/appendix1}			     % Приложение 1
+
+\input{my_folder/appendix2}			 	 % Приложение 2
+
+
+\end{document}
